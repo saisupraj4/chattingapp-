@@ -1,0 +1,208 @@
+.nav-bar{
+  display: flex;
+  height: 50px;
+  /* background-image: linear-gradient(45deg, purple, orange); */
+  padding: 5px;
+
+  padding-left: 40px;
+
+  border: 2px solid transparent; /* Set the border width and make it transparent */
+  border-image: linear-gradient(45deg, #ff6600, #3366ff); /* Define the gradient */
+  border-image-slice: 1; /* Ensure the entire border area is covered by the gradient */
+
+  border-right: none;
+}
+
+.flex-container{
+  display: flex;
+  height: 689px;
+}
+
+.left{
+  text-align: center;
+  height: 739px; /*739px*/
+  width: 22%;
+
+  border-right:5px solid;
+  border-image: linear-gradient(45deg, #ff6600, #3366ff) 1;
+
+  max-height: auto; 
+}
+
+.addSender{
+  margin-top: 40px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid;
+
+  /* border: 2px solid transparent; */
+  border-image: linear-gradient(45deg, #ff6600, #3366ff); /* Define the gradient */
+  border-image-slice: 1; 
+}
+
+.addSender input{
+  display: block;
+  margin: 15px auto;
+  margin-top: 20px;
+  width: 80%;
+  height: 35px;
+
+  border-radius: 8px;
+  padding-left: 10px;
+}
+
+.addSender button{
+  border-radius: 8px;
+  margin: 10px auto;
+  width: 150px;
+}
+
+.connectionDetails{
+  text-align: center;
+  height: auto;
+
+
+  max-height: auto; 
+}
+
+.connection{
+  width: 80%;
+  height: 40px;
+  margin: 20px auto;
+  display: block;
+  font-size: 140%;
+  border: 2px solid;
+
+  border-image: linear-gradient(45deg, #ff6600, #3366ff);
+  border-image-slice: 1;
+
+  border-radius: 8px;
+
+  background: transparent;
+}
+
+.userDetails{
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+
+  display: flex;
+  height: 55px;
+  width: 21.66%;
+
+  border: 1px solid transparent; /* Set the border width and make it transparent */
+  border-image: linear-gradient(45deg, #3366ff, #ff6600); /* Define the gradient */
+  border-image-slice: 1; /* Ensure the entire border area is covered by the gradient */
+
+  border-right: none;
+
+  /* background-image: linear-gradient(45deg, purple, orange); */
+  padding: 10px;
+  padding-top: 20px;
+}
+
+.userDetails .username{
+  margin: 0 auto;
+}
+
+.right{
+
+  height: auto;
+  width: 78%;
+
+  padding-top: 15px;
+  padding-left: 15px;
+}
+
+.wantedConnection{
+  border-bottom: 1px solid gray;
+
+  display: flex;
+}
+
+.chatArea{
+  max-height: 550px; 
+  overflow-y: auto;
+}
+
+.sender{
+  background-color: antiquewhite;
+  width: fit-content;
+  max-width: 600px;
+  border-radius: 8px;
+  padding: 10px;
+  margin-right: auto;
+}
+
+.receiver{
+  position: relative;
+  background-color: aquamarine;
+  width: fit-content;
+  max-width: 600px;
+  border-radius: 8px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.sendMessage{
+  display: flex;
+  width: 75%;
+
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+
+  padding-top: 15px;
+  padding-bottom: 10px;
+  margin-top: auto;
+}
+
+.sendMessage textarea{
+  height: 100px;
+  width: 80%;
+  border-radius: 8px;
+  resize: none;
+  padding: 15px;
+}
+
+.sendMessage button {
+  height: 50px;
+  width: 100px;
+
+  border: none;
+
+  background-color: transparent;
+
+  margin-left: 50px;
+  margin-top: 0px;
+}
+
+.sendMessage button box-icon{
+  height: 100px;
+  width: 70px;
+}
+
+
+
+/* Style the scrollbar track */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Style the scrollbar thumb (the draggable part) */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar thumb */
+  border-radius: 5px; /* Rounded corners for the thumb */
+}
+
+/* Style the scrollbar track when the user hovers over it */
+::-webkit-scrollbar-track:hover {
+  background: #aaa;
+  border-radius: 5px;
+}
+
+
+video{
+  width: 100px;
+  height: 100px;
+}
